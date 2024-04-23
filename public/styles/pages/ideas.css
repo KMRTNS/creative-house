@@ -1,0 +1,15 @@
+@import url("../components/modal.css");
+@import url("../layouts/footer.css");
+@import url("../layouts/header.css");
+
+#page-ideas .title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 24px 0;
+  text-align: center;
+}
+
+#page-ideas .title_text {
+  color: var(--color-gray);
+}

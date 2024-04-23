@@ -1,0 +1,40 @@
+@import url("../modules/form/index.css");
+
+.modal-overlay {
+  background: var(--color-link);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal-overlay--active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-overlay--addScroll {
+  overflow: auto;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: var(--color-white);
+  height: 100%;
+  margin: 40px 0;
+}
+
+.modal_title {
+  text-align: center;
+  text-transform: uppercase;
+}

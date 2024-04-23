@@ -1,0 +1,11 @@
+.link {
+  color: var(--color-link);
+  font-family: var(--font-montserrat);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+.link:hover {
+  color: var(--hover-link);
+}

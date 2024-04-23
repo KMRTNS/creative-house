@@ -1,0 +1,12 @@
+@import url('./idea-caption.css');
+@import url('./idea-content.css');
+@import url('./idea-icon.css');
+
+.idea {
+  background: var(--color-white);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+  display: flex;
+  gap: 24px;
+  padding: 32px;
+}

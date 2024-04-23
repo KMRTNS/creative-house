@@ -1,0 +1,15 @@
+.modal_form .input_label,
+.modal_form .textarea_label {
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.modal_form .input,
+.modal_form .textarea {
+  border: 1px solid rgba(141, 25, 52, 0.5);
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  padding: 12px;
+  width: 100%;
+}

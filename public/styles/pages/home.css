@@ -1,0 +1,18 @@
+@import url("../layouts/footer.css");
+@import url("../layouts/header.css");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.description_paragraph {
+  font-size: 16px;
+}

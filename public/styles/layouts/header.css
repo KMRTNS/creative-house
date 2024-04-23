@@ -1,0 +1,14 @@
+.header {
+  text-align: left;
+}
+
+.header_logo {
+  height: 64px;
+  width: 250px;
+}
+
+#page-ideas .header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

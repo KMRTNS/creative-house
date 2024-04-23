@@ -1,0 +1,30 @@
+.button_save,
+.button_close {
+  color: var(--color-link);
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 32px;
+  transition: 1s;
+}
+
+.button_close {
+  color: var(--color-white);
+  background: var(--bg-button-close);
+  text-decoration: none;
+}
+
+.button_close:hover {
+  color: var(--color-link);
+  background: var(--color-white);
+}
+
+.button_save {
+  background: var(--color-white);
+  border: none;
+}
+
+.button_save:hover {
+  background: var(--hover-link);
+}

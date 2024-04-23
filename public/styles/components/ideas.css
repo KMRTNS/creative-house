@@ -1,0 +1,14 @@
+@import url('../modules/idea/index.css');
+
+.ideas {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#page-ideas .ideas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 16px;
+  margin-bottom: 40px;
+}

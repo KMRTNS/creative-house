@@ -1,0 +1,17 @@
+.button {
+  align-items: center;
+  background: var(--color-link);
+  border-radius: 8px;
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  padding: 16px;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.button:hover {
+  background: var(--hover-link);
+}

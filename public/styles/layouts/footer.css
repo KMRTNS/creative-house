@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+}
+
+.footer_text {
+  color: var(--color-gray);
+  font-size: 14px;
+}
+
+.footer_author {
+  opacity: 0.8;
+}

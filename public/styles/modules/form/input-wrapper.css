@@ -1,0 +1,5 @@
+@import url('./input.css');
+
+.modal_form .input-wrapper:nth-child(2) ~ .input-wrapper {
+  grid-column: span 2;
+}

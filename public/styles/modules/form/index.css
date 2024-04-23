@@ -1,0 +1,11 @@
+@import url("./buttons-wrapper.css");
+@import url("./input-wrapper.css");
+
+.modal_form {
+  display: grid;
+  gap: 24px 16px;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+}
